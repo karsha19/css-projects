@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+
+.first,
+.last {
+  background-color: #ce1126;
+  flex-basis: 100px;
+}
+
+.middle {
+  background-color: #002868;
+  flex-basis: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  background-color: #fff;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
